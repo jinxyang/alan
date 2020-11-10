@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "type-check": "tsc --noEmit",
     "build": "npm run build:types && npm run build:js",
-    "build:types": "tsc --emitDeclarationOnly",
+    "build:types": "tsc --declaration --emitDeclarationOnly",
     "build:js": "babel components --out-dir lib --extensions \".ts,.tsx\""
   },
   "repository": {
@@ -45,11 +45,13 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
+    "@types/styled-components": "^5.1.4",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "babel-loader": "^8.1.0",
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.1",
     "eslint-config-standard-with-typescript": "^19.0.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",

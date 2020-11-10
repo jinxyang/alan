@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    "declaration": true,
     "isolatedModules": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "jsx": "react",
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "Node",
-    "outDir": "./types",
+    "outDir": "./lib",
     "strict": true,
     "target": "ESNext"
   },
-  "include": ["components", "examples"]
+  "include": ["components"],
+  "exclude": ["examples"]
 }
