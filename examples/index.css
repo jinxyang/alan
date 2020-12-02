@@ -4,7 +4,60 @@ html {
 
 :root {
   --gutter: 0.16rem;
-  --font-size: 0.16rem;
+  --font-size: 0.14rem;
+
+  --text_disabled: rgba(0, 0, 0, 0.25);
+  --back_disabled: #f5f5f5;
+  --border_disabled: #d9d9d9;
+
+  --color-white: #fff;
+  --color-black: #202226;
+
+  --primary: #38b9ff;
+  --primary_hover: #9eddff;
+  --primary_active: #389fff;
+  --primary_focus: #4ea8fc;
+  --primary_transparent: mix(var(--primary), transparent, 20%);
+  --primary_light: #9eddff;
+
+  --success: #52c41a;
+  --success_hover: #b8dda6;
+  --success_active: #5eac37;
+  --success_focus: #52c41a;
+  --success_transparent: mix(var(--success), transparent, 20%);
+  --success_light: #b8dda6;
+
+  --warn: #f5222d;
+  --warn_hover: #f19ca0;
+  --warn_active: #d32029;
+  --warn_focus: #f5222d;
+  --warn_transparent: mix(var(--warn), transparent, 20%);
+  --warn_light: #f19ca0;
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary_hover);
+  --color-primary-active: var(--primary_active);
+  --color-primary-focus: var(--primary_focus);
+  --color-primary-light: var(--primary_light);
+  --color-primary-transparent: var(--primary_transparent);
+
+  --color-success: var(--success);
+  --color-success-hover: var(--success_hover);
+  --color-success-active: var(--success_active);
+  --color-success-focus: var(--success_focus);
+  --color-success-light: var(--success_light);
+  --color-success-transparent: var(--success_transparent);
+
+  --color-warn: var(--warn);
+  --color-warn-hover: var(--warn_hover);
+  --color-warn-active: var(--warn_active);
+  --color-warn-focus: var(--warn_focus);
+  --color-warn-light: var(--warn_light);
+  --color-warn-transparent: var(--warn_transparent);
+
+  --color-text-disabled: var(--text_disabled);
+  --color-border-disabled: var(--border_disabled);
+  --color-back-disabled: var(--back_disabled);
 }
 
 body {
